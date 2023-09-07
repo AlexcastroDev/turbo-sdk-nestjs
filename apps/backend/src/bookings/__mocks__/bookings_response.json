@@ -1,0 +1,23 @@
+{
+  "data": [
+    {
+      "id": "3",
+      "type": "booking",
+      "attributes": {
+        "internal_id": 1,
+        "status": "drafting"
+      }
+    },
+    {
+      "id": "4",
+      "type": "booking",
+      "attributes": {
+        "internal_id": 2,
+        "status": "drafting"
+      }
+    }
+  ],
+  "meta": {
+    "total": 2
+  }
+}

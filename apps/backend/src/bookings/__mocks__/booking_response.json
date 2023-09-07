@@ -1,0 +1,33 @@
+{
+  "data": {
+    "id": "9",
+    "type": "booking",
+    "attributes": {
+      "internal_id": 6,
+      "status": "drafting"
+    },
+    "relationships": {
+      "customer": {
+        "data": {
+          "id": "10",
+          "type": "customer"
+        }
+      }
+    },
+    "meta": {}
+  },
+  "included": [
+    {
+      "id": "10",
+      "type": "customer",
+      "attributes": {
+        "internal_id": 1,
+        "full_name": "teste",
+        "email": "teste@teste.com"
+      },
+      "meta": {
+        "phone_number_country_code": "+351"
+      }
+    }
+  ]
+}
