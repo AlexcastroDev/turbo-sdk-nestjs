@@ -8,5 +8,5 @@ interface GetProps {
 export default async function Get({id}: GetProps) {
     const response = await api.get(`/api/me/bookings/${id}`)
     const deserialized = deserialize(response.data)
-    return deserialized.data
+    return deserialized?.data
 }
